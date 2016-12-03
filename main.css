@@ -415,7 +415,7 @@ textarea {
 
 /* Global Typography
    ========================================================================== */
-@font-face {
+/*@font-face {
   font-family: 'Aktiv Grotesk';
   src: url('AktivGrotesk.ttf')  format('truetype');
 }
@@ -423,12 +423,13 @@ textarea {
 @font-face {
   font-family: 'Aktiv Grotesk Bold';
   src: url('AktivGroteskBold.ttf')  format('truetype');
-}
+}*/
 
 /* Main
    ========================================================================== */
 body {
-	font-family: "Aktiv Grotesk", Helvetica, Arial, sans-serif;
+	font-family: "aktiv-grotesk", Helvetica, Arial, sans-serif;
+  font-weight: 400;
 	font-size: 14px;
 	line-height: 1.5;
 	color: #808080;
@@ -497,7 +498,8 @@ a:focus {
 }
 
 .text-bg {
-  font-family: "Aktiv Grotesk Bold", Helvetica, Arial, sans-serif;
+  font-family: "aktiv-grotesk", Helvetica, Arial, sans-serif;
+  font-weight: 700;;
   font-size: 15vw;
   margin: auto;
   text-align: center;
@@ -529,7 +531,8 @@ a:focus {
 }
 
 .text-label {
-  font-family: "Aktiv Grotesk Bold", Helvetica, Arial, sans-serif;
+  font-family: "aktiv-grotesk", Helvetica, Arial, sans-serif;
+  font-weight: 700;
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 2px;
