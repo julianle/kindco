@@ -442,11 +442,11 @@ a {
   background-color: none;
   padding-bottom: 4px;
 	border-bottom: 2px solid #bfbfbf;
-	/*transition: .3s all ease-in-out;*/
+	transition: .3s all ease-in-out;
 }
 a:hover,
 a:focus {
-	color: inherit;
+	color: #bfbfbf;
   text-decoration: none;
 	/*color: #fff;
 	background-color: #00ffd5;*/
@@ -556,4 +556,18 @@ a:focus {
   font-size: 12px;
   margin: auto;
   text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  .text-body {
+    width: 50vw;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  .text-body {
+    width: 75vw;
+  }
+
 }
